@@ -29,7 +29,7 @@ ROOMS: dict[int, Room] = {
     1: Room({
         "number": 1,
         "name": "The Oakhurst Tavern",
-        "description": "A &yroadside tavern&N, it sits at the edge of a &gpinewood forest&N.\nThe interior is warmed by a large &rfireplace&N on the left wall and the scents of &mvarious&N &Yalcohols&N waft about the room.&N\nIt lt looks as if it may have been someones house at somepoint in the past ",
+        "description": "A &yroadside tavern&N, it sits at the edge of a &gpinewood forest&N.\nThe interior is warmed by a large &rfireplace&N on the left wall and the scents of &mvarious&N &Yalcohols&N waft about the room.&N\nIt lt looks as if it may have been a house at some point in the past ",
         "indoors": True,
         "terrain": "wooden floor",
         "exits": [
@@ -42,6 +42,8 @@ ROOMS: dict[int, Room] = {
         "objects": [
             O.spawn("Assorted_Bottles__Full"),
             O.spawn("Silver_Sword"),
+   #        O.spawn("Iron_Key"),
+ 
         ],
         "mobs": [                           # was [spawn1][spawn2] — that's list subscription, not a list
             M.spawn("Fanciful_Bard"),
@@ -100,6 +102,7 @@ ROOMS: dict[int, Room] = {
     #     ],
     #     "objects": [
     #         O.spawn("Dark_Wood_Trees"),
+    #         O.spawn("Garlic_Bulb"),
     #     ], 
     #     "mobs": [
     #         M.spawn("Sheep"),
@@ -128,13 +131,11 @@ ROOMS: dict[int, Room] = {
     #         "terrain": "woodland",
     #         "exits": [
     #             {"direction": "north", "roomId": 7},
-    #             {"direction": "south", "roomId": 4},
-                
-    #         ],
+    #             {"direction": "south", "roomId": 4}],
     #         "objects": [
-    #             O.spawn("Dark_Wood_Trees"),
-    #         ], 
-    #         "mobs": [M.spawn("Timid_Sheep"),], 
+    #             O.spawn("Dark_Wood_Trees")], 
+    #
+    #         "mobs": [M.spawn("Frightened_Sheep")], 
 
     # 7: Room({
     #         "number": 7,
@@ -147,8 +148,7 @@ ROOMS: dict[int, Room] = {
     #             {"direction": "east", "roomId": 8},
     #         ],
     #         "objects": [
-    #             O.spawn("Crumbling_Stone"),
-    #        ],
+    #             O.spawn("Crumbling_Stone")],
             
     #  8: Room({
     #         "number": 8,
@@ -161,9 +161,8 @@ ROOMS: dict[int, Room] = {
     #             {"direction": "east", "roomId": 9},
     #         ],
     #         "objects": [
-    #             O.spawn("Crumbling_Stone"),
-            
-    #         ],
+    #             O.spawn("Crumbling_Stone")],
+
     #  9: Room({
     #         "number": 9,
     #         "name": "Manor Entrance",
@@ -189,6 +188,7 @@ ROOMS: dict[int, Room] = {
     #    ],
     #    "objects": [
     #        O.spawn("Crimson_Banner"),
+    #        O.spawn("Torch"),
     #        O.spawn("Crimson_Beacon"),
     #        O.spawn("Grand_Dining_Table"),
     #    ],
@@ -242,8 +242,8 @@ ROOMS: dict[int, Room] = {
     #        O.spawn("Cow_Pen"),
     #        O.spawn("Sheep_Pen"),
     #    ],
-    #    "mobs": [M.spawn("Timid_Sheep")],
-    #    "mobs": [M.spawn("Timid_Cow")],
+    #    "mobs": [M.spawn("Frightened_Sheep")],
+    #    "mobs": [M.spawn("Frightened_Cow")],
     
     #   14: Room({
     #    "number": 14,

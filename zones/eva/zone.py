@@ -6,6 +6,8 @@ author="Eva"
 ## HOW TO START GAME
 ## python main.py
 
+####################  VV class = Eldritch knight
+
 ## based on D&D 5.3
 
 # good bbed level 60

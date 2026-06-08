@@ -66,8 +66,8 @@ TEMPLATES: dict[str, dict] = {
         "spawn_as":         Object,
         "name":             "Giant Oak Tree",
         "key_words":        ("oak", "tree",),
-        "room_description": "An extremely large &goak tree&N sits deeply rooted in the center of the courtyard.",
-        "description":      "This &ggiant oak&N towers over all else near it, it's &gb&yr&ga&yn&gc&yh&ye&gs&N covering the courtyard in a pleasant dappled shade.\nIts &yroots&N have started to disrupt some of the &Xcobblestone bricks&N in the path surrounding it.",
+        "room_description": "An extremely large &gpine tree&N sits deeply rooted in the center of the courtyard.",
+        "description":      "This &ggiant pine&N towers over all else near it, it's &gb&yr&ga&yn&gc&yh&ye&gs&N covering the courtyard in a pleasant dappled shade.\nIts &yroots&N have started to disrupt some of the &Xcobblestone bricks&N in the path surrounding it.",
     },
     "Tables": {
         "spawn_as":         Object,
@@ -80,7 +80,7 @@ TEMPLATES: dict[str, dict] = {
         "spawn_as":         Item,
         "name":             "Wyldflowers",
         "key_words":        ("wyldflowers","flowers",),
-        "room_description": "Sparse patches of &YW&yy&Wl&Yd&yf&Wl&Yo&yw&We&Yr&ys&N are dotted around the courtyard.",
+        "room_description": "Sparse patches of &Y&NW&yy&Wl&Y&Nd&yf&Wl&Y&No&yw&We&Y&Nr&ys&N are dotted around the courtyard.",
         "description":      "As you look closer at one of the smatterings of &YW&yy&Wl&Yd&yf&Wl&Yo&yw&We&Yr&ys&N you see that they are ruffled and delicate, about the size of a adult human's palm.\nIt seems the &Yf&yl&Wo&Yw&ye&Wr&Ys&N come in three distinct colors: &Yyellow&N, &yorange&N, and &Wwhite&N.",
     },
 
